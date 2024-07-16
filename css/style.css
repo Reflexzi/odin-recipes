@@ -1,11 +1,40 @@
 .index{
     position: absolute;
     left:50%;
-    top:50;
     width:30em;
     height: 20em;
-   margin-left: -15em;   
+    margin-left: -15em;   
 }
-.boxInregdients{
+.headline{
+    font-family: italic, Courier, monospace;
+    margin-left: 35%;
+    left:50%;
+    color: red;   
+    
+}
+.intro {
+    margin-left: 35%;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+}
+.boxIn{
+    padding-left: 10px;
+    margin-left: 35%;
+    margin-right: 30%;
+    border:5px solid gray;
+    background-color: seashell;
+    font-family: sans-serif, Times, serif;
+    font-size: 14px;
+    color: black;
+}
 
+.boxSteps{
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-right: 30%;
+    padding-left: 5px;
+    border:5px solid gray;
+    background-color: seashell;
+    font-family: sans-serif, Times, serif;
+    font-size: 14px;
+    color: black;
 }
